@@ -1,0 +1,19 @@
+.navtext{
+  font-family: 'Kings';
+  font-size: 20px;
+  gap: 10px;
+}
+
+.navtext2{
+  font-family: 'Kings';
+  font-size: 15px;
+  gap: 10px;
+}
+
+.textTran{
+  left: 100px;
+}
+
+.bglogo{
+  left: 98px;
+}
