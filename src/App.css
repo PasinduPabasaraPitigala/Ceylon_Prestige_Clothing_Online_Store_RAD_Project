@@ -1,3 +1,14 @@
+
+
+.magicCard{
+  font-family: 'Walter Turncoat', cursive;
+  background-color:whitesmoke;
+}
+
+
+
+
+
 .navtext{
   font-family: 'Kings';
   font-size: 20px;
@@ -17,3 +28,6 @@
 .bglogo{
   left: 98px;
 }
+
+
+

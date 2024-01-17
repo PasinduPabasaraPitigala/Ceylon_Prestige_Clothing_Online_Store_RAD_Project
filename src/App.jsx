@@ -1,6 +1,6 @@
 import './App.css'
 
-function App() {
+ function App() {
 
   return (
    <div>
@@ -26,19 +26,64 @@ function App() {
        </header>
 
        <section>
-           <div className={'flex item-center'}>
+           <div className={'flex item-center absolute top-[110px]'}>
                {/*<img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'absolute-right w-[450px] h-[550px] px-2 bglogo bg-opacity-0 rounded-2xl rounded-2xl'}/>*/}
                {/*<img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'absolute-center w-[450px] h-[550px] px-2 bglogo bg-opacity-0 rounded-2xl rounded-2xl'}/>*/}
                {/*<img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'absolute-left w-[450px] h-[550px] px-2 bglogo bg-opacity-0 rounded-2xl rounded-2xl'}/>*/}
-               <img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'w-full'}/>
-               <img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'w-full'}/>
-               <img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'w-full'}/>
+               <img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'w-[450px] h-[550px]'}/>
+               <img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'w-[450px] h-[550px]'}/>
+               <img src={'src/assets/images/4a96adb3d7e51140c179e812baf185be.jpg'} alt={'bgPic'} className={'w-[450px] h-[550px]'}/>
            </div>
-
-               <img src={'src/assets/images/WhatsApp Image 2024-01-15 at 01.29.49_cd67a079.jpg'} alt={'bgPic'} className={''}/>
-
+               <img src={'src/assets/images/WhatsApp Image 2024-01-15 at 01.29.49_cd67a079.jpg'} alt={'bgPic'} className={'relative left-[360px]  top-[40px] w-[700px] h-[450px] '}/>
        </section>
 
+
+
+
+
+       <section className={'magicCard'}>
+
+           <div className={'flex item-center absolute top-[660px]'} >
+               <img src={'src/assets/images/pngtree-geometric-mandala-pattern-with-retro-style-image_1072224.jpg'} className={'w-[675px]  h-[660px]'}/>
+               <img src={'src/assets/images/pngtree-geometric-mandala-pattern-with-retro-style-image_1072224.jpg'} className={'w-[675px]  h-[660px]'}/>
+           </div>
+      
+           <div className="container mx-auto my-16 flex flex-wrap justify-center  relative top-[120px] ">
+               <div className="box m-4 p-4 relative overflow-hidden transition-all duration-1000 ease-out hover:shadow-md hover:transform hover:scale-105 w-[250px] h-[450px]">
+                   <img src='src/assets/images/dress15.jpeg' className="w-full h-full absolute top-0 left-0 transition-all duration-1000 ease-out opacity-100 hover:opacity-30" alt="Image 1"/>
+                       <div className=" ">
+                           {/*text-2xl font-bold text-white opacity-0 transition-all duration-1000 ease-out*/}
+                           <h1 className="text-2xl font-bold text-black transition-all duration-1000 ease-out">Title 1</h1>
+                           {/*<h2 className="move text-lg text-white opacity-0 transition-all duration-1000 ease-in-out mt-4">Type anything you like as a side title.</h2>*/}
+                           {/*<p className="move text-white opacity-0 transition-all duration-1000 ease-in-out mt-4">Type anything you like as a description.</p>*/}
+                       </div>
+               </div>
+
+               <div className="box m-4 p-4 relative overflow-hidden transition-all duration-1000 ease-out hover:shadow-md hover:transform hover:scale-105 w-[250px] h-[450px]">
+                   <img src='src/assets/images/dress15.jpeg' className="w-full h-full absolute top-0 left-0 transition-all duration-1000 ease-out opacity-100 hover:opacity-30" alt="Image 1"/>
+                   <div className=" ">
+                       {/*text-2xl font-bold text-white opacity-0 transition-all duration-1000 ease-out*/}
+                       <h1 className="text-2xl font-bold text-black transition-all duration-1000 ease-out">Title 1</h1>
+                       {/*<h2 className="move text-lg text-white opacity-0 transition-all duration-1000 ease-in-out mt-4">Type anything you like as a side title.</h2>*/}
+                       {/*<p className="move text-white opacity-0 transition-all duration-1000 ease-in-out mt-4">Type anything you like as a description.</p>*/}
+                   </div>
+               </div>
+
+               <div className="box m-4 p-4 relative overflow-hidden transition-all duration-1000 ease-out hover:shadow-md hover:transform hover:scale-105 w-[250px] h-[450px]">
+                   <img src='src/assets/images/dress15.jpeg' className="w-full h-full absolute top-0 left-0 transition-all duration-1000 ease-out opacity-100 hover:opacity-30" alt="Image 1"/>
+                   <div className=" ">
+                       {/*text-2xl font-bold text-white opacity-0 transition-all duration-1000 ease-out*/}
+                       <h1 className="text-2xl font-bold text-black transition-all duration-1000 ease-out">Title 1</h1>
+                       {/*<h2 className="move text-lg text-white opacity-0 transition-all duration-1000 ease-in-out mt-4">Type anything you like as a side title.</h2>*/}
+                       {/*<p className="move text-white opacity-0 transition-all duration-1000 ease-in-out mt-4">Type anything you like as a description.</p>*/}
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <section className={'fashionBoxes'}>
+
+       </section>
    </div>
   )
 }
